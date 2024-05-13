@@ -11,4 +11,14 @@ public class BrandController {
     public String index() {
         return  "admin/brand/list";
     }
+
+    @GetMapping("/create")
+    public String create() {
+        return  "admin/brand/create";
+    }
+
+    @GetMapping("/edit")
+    public String edit() {
+        return  "admin/brand/edit";
+    }
 }

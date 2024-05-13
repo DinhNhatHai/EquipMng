@@ -11,4 +11,14 @@ public class CategoryController {
     public String index() {
         return  "admin/category/list";
     }
+
+    @GetMapping("/create")
+    public String create() {
+        return  "admin/category/create";
+    }
+
+    @GetMapping("/edit")
+    public String edit() {
+        return  "admin/category/edit";
+    }
 }
